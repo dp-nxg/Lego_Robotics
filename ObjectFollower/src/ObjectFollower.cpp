@@ -5,7 +5,6 @@
 // Copyright   : Your copyright notice
 // Description : Object Following Lego Robot in C++, Ansi-style
 //============================================================================
-
 #include <thread>
 #include <chrono>
 #include "ev3dev.h"
