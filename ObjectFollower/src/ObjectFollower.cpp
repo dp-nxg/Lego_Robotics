@@ -21,7 +21,6 @@ ultrasonic_sensor ultrasonic(INPUT_4);
 motor motor_left(OUTPUT_A, motor::motor_large);
 motor motor_right(OUTPUT_B, motor::motor_large);
 motor motor_head(OUTPUT_D, motor::motor_medium);
-
 /*
  * Some Robot function declarations
  */
@@ -29,7 +28,6 @@ void turn(int direction);
 void initialize_speeds();
 void initialize_positions();
 void sweep180();
-
 /*
  * turn the motors to the specific angle
  */
