@@ -61,7 +61,6 @@ void sweep180(){
 	if(motor_head.position()<=-87){
 		motor_head.set_position_sp(90).run_to_abs_pos();
 	}
-
 	if(motor_head.position()>=87){
 		motor_head.set_position_sp(-90).run_to_abs_pos();
 	}
@@ -80,14 +79,13 @@ void stop(){
 	motor_left.stop();
 	motor_right.stop();
 }
-
 /*
  * main method
  */
 int main()
 {
 	/*
-	 * some state variables that are used for state machine logic
+	 * state variables that are used for state machine logic
 	 */
 	bool robot_active_state=false;
 	bool toggle_state=false;
@@ -116,7 +114,6 @@ int main()
 		if(robot_active_state)
 		{
 			std::cout << "OFF " << endl;
-
 			/*
 			 * if robot detected object which is far away  --> stop movement, and turn the head check for the objects in the 180 sweep range
 			 */
@@ -148,7 +145,6 @@ int main()
 				motor_head.stop();
 				stop();
 			}
-
 		}
 	}
 	return 0;
