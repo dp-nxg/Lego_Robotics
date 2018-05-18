@@ -86,26 +86,22 @@ void stop(){
 /*
  * main method
  */
-
 int main()
 {
 	/*
 	 * some state variables that are used for state machine logic
 	 */
-
 	bool robot_active_state=false;
 	bool toggle_state=false;
 	bool object_detected_state=true;
 	initialize_positions();
 	initialize_speeds();
-
 	/*
 	 * A continuous loop
 	 */
 	while(true){
 		this_thread::sleep_for(chrono::milliseconds(200));
 		std::cout << "ON: " << robot_active_state << endl;
-
 		/*
 		 * touch sensor checking ,acts as on off button for every alternative press, press the button slowely and release when doing this
 		 */
@@ -119,7 +115,6 @@ int main()
 			robot_active_state = true;
 			motor_head.set_position_sp(-90).run_to_abs_pos();
 		}
-
 		if(robot_active_state)
 		{
 			std::cout << "OFF " << endl;
