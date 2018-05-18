@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1817717739/LD_LIBRARY_PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1817717739/LD_LIBRARY_PATH/operation=append
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1817717739/LD_LIBRARY_PATH/value=/home/dp/robot-arm/arm-linux-gnueabi
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1817717739/LD_RUN_PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1817717739/LD_RUN_PATH/operation=append
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1817717739/LD_RUN_PATH/value=/home/dp/robot-arm/arm-linux-gnueabi
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1817717739/append=true
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1817717739/appendContributed=true
