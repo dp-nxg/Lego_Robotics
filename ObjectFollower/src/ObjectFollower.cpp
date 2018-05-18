@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : object_follwing_lego_robot.cpp
 // Author      : Durga Prasad Babu Nasika
-// Version     :
+// Version     : 1.0
 // Copyright   : Your copyright notice
 // Description : Object Following Lego Robot in C++, Ansi-style
 //============================================================================
