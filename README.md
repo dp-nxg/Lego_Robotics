@@ -6,6 +6,8 @@ The main aim of this project is to get good exposure on some of the real world a
 - This Object Tracking Robot uses 
 two lego large motors, one medium motor, one ultrasonic sensor, one touch sensor and performs moving action towards a nearest object with in some paricular range and constraints.
 
+- short demo :
+https://www.youtube.com/watch?v=JbZqrS8_w3c
 
 
 
