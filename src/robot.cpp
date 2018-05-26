@@ -17,12 +17,12 @@ public:
     this.motor_left = motor_left;
     this.motor_right = motor_right;
     this.motor_head = motor_head;
-    this.motor_left.set_position(0);
-    this.motor_right.set_position(0);
-    this.motor_head.set_position(-90);
-    this.motor_head.set_duty_cycle_sp(40);
-    this.motor_left.set_duty_cycle_sp(20);
-    this.motor_right.set_duty_cycle_sp(20);
+    motor_left->set_position(0);
+    motor_right->set_position(0);
+    motor_head->set_position(-90);
+    motor_head->set_duty_cycle_sp(40);
+    motor_left->set_duty_cycle_sp(20);
+    motor_right->set_duty_cycle_sp(20);
   }
   bool touched()
   {
@@ -49,8 +49,8 @@ public:
   }
   void stop()
   {
-    motor_left.stop();
-    motor_right.stop();
+    motor_left->stop();
+    motor_right->stop();
   }
   void stop_sweep()
   {
