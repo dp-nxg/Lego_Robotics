@@ -64,6 +64,10 @@ public:
     stop();
     stop_sweep();
   }
+  void reset_sweep()
+  {
+    motor_head->set_position_sp(0).run_to_abs_pos();
+  }
   float distance()
   {
     return ultrasonic_sensor->distance_centimeters();

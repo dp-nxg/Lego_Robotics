@@ -15,6 +15,7 @@ public:
   void forward();
   void stop();
   void stop_sweep();
+  void reset_sweep();
   void off();
   void sweep180();
   float distance();

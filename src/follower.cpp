@@ -52,7 +52,7 @@ private:
       toggle_state = true;
       robot->stop_sweep();
       robot->turn(robot->angle());
-      // motor_head.set_position_sp(0).run_to_abs_pos();
+      robot->reset_sweep();
       robot->forward();
     }
     else if (distance < 10)
